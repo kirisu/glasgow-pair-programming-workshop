@@ -1,0 +1,16 @@
+{
+  "name": "glasgow-pair-programming-workshop",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --opts .mocha.opts",
+    "test:watch": "./node_modules/.bin/mocha --opts .mocha.opts --watch"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
