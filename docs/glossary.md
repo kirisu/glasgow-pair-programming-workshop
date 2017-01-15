@@ -1,4 +1,4 @@
-#Glossary
+# Glossary
 
 * [Babel](https://babeljs.io/) - JavaScript "transpiler"; converts ES6, TypeScript and other variants of the language into ES5 for consumption by node.js and/or the browser
 * [Chai](http://chaijs.com/) - JavaScript assertion library
