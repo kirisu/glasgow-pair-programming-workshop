@@ -15,8 +15,9 @@ We have provided a few ways of doing this.
 
 ### Option 1: Local node.js Install
 
-1. Open terminal and ```cd``` to this repository
-2. Install [nvm](https://github.com/creationix/nvm) (Node Version Manager)
+Open terminal and ```cd``` to this repository
+
+Install [nvm](https://github.com/creationix/nvm) (Node Version Manager)
 ```shell
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 ```
@@ -24,7 +25,8 @@ OR
 ```shell
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 ```
-3. Install node (version 6.9.4) by running ```nvm install```
+
+Install node (version 6.9.4) by running ```nvm install```
 
 ### Option 2: Run Virtual Box VM Using Vagrant
 
@@ -32,14 +34,17 @@ If you already have virtualbox and vagrant installed, this is a good option.
 
 Note that the full install procedure will take at least 10 minutes.
 
-1. Install virtual box using the [installer](https://www.virtualbox.org/wiki/Downloads) or (OSX only) ```brew cask install virtualbox```
-2. Install vagrant using the [installer](https://www.vagrantup.com/downloads.html) or (OSX only) ```brew cask install vagrant```
-3. Open terminal and ```cd``` to this repository
-4. Start the VM
+Install virtual box using the [installer](https://www.virtualbox.org/wiki/Downloads) or (OSX only) ```brew cask install virtualbox```
+
+Install vagrant using the [installer](https://www.vagrantup.com/downloads.html) or (OSX only) ```brew cask install vagrant```
+
+Open terminal and ```cd``` to this repository
+
+Start the VM
 ```shell
 vagrant up --provision
 ```
-5. Connect to the VM and navigate to the source code (this repository is mounted at ```/vagrant```)
+Connect to the VM and navigate to the source code (this repository is mounted at ```/vagrant```)
 ```shell
 vagrant ssh
 cd /vagrant
