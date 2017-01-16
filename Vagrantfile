@@ -7,18 +7,16 @@ Vagrant.configure("2") do |config|
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
-  config.vm.network "private_network", ip: "192.168.50.4"
+  config.vm.network "private_network", ip: "192.168.50.5"
 
   config.ssh.forward_agent = true
 
-  config.vm.define "docker" do |docker|
-    docker.vm.provision "ansible" do |ansible|
+  config.vm.define "nodejsbox" do |nodejsbox|
+    nodejsbox.vm.provision "ansible" do |ansible|
       ansible.playbook = "ansible/vagrant.yml"
       ansible.host_key_checking = false
       ansible.extra_vars = { ansible_ssh_user: 'vagrant' }
       ansible.sudo = true
     end
-
-    docker.vm.provision "shell", path: "eventstore/start.sh"
   end
 end
