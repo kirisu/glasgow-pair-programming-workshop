@@ -1,0 +1,7 @@
+.vagrant
+ansible
+docker
+docs
+.nvmrc
+README.md
+Vagrantfile
