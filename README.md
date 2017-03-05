@@ -1,7 +1,5 @@
 # Glasgow Pair Programming Workshop
 
-Access project pages at https://kirisu.github.io/glasgow-pair-programming-workshop
-
 ## Pre-Requisite - Install Node
 
 In order to work with ES6 you need a way to run the build and test tools (that
