@@ -5,7 +5,7 @@
 * [Katas](docs/katas.md)
 * [Glossary](docs/glossary.md)
 * [ES6 Features](https://webapplog.com/es6/) (for humans)
-* [ES6 Cheatsheet](https://gist.github.com/vasco3/22b09ef0ca5e0f8c5996) (all for humans)
+* [ES6 Cheatsheet](https://gist.github.com/vasco3/22b09ef0ca5e0f8c5996) (also for humans)
 * [ES6 Features](http://es6-features.org) (in gory detail)
 
 ## Pre-Requisite - Install Node
