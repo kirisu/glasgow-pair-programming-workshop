@@ -32,6 +32,13 @@ OR
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 ```
 
+Now clone this repo
+
+```
+git clone git@github.com:kirisu/glasgow-pair-programming-workshop.git
+cd glasgow-pair-programming-workshop
+```
+
 Install node (version 6.9.4) by running ```nvm install```
 
 ### Option 2: Run Virtual Box VM Using Vagrant
@@ -44,7 +51,11 @@ Install virtual box using the [installer](https://www.virtualbox.org/wiki/Downlo
 
 Install vagrant using the [installer](https://www.vagrantup.com/downloads.html) or (OSX only) ```brew cask install vagrant```
 
-Open terminal and ```cd``` to this repository
+Open terminal and clone this repository
+```
+git clone git@github.com:kirisu/glasgow-pair-programming-workshop.git
+cd glasgow-pair-programming-workshop
+```
 
 Start the VM
 ```shell
